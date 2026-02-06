@@ -24,5 +24,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Archivo Black", sans-serif;
-  overflow-x: hidden;
+  overflow: scroll;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
 }
